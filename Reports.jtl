@@ -1,0 +1,32 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1717622718581,1363,SignIn,200,OK,Thread Group Education 2-1,text,true,,492,369,1,7,http://localhost:60968/authentication/authentication/signin,1361,0,47
+1717622718581,1363,SignIn,200,OK,Thread Group Skills 1-1,text,true,,492,369,1,7,http://localhost:60968/authentication/authentication/signin,1361,0,47
+1717622718581,1363,SignIn,200,OK,Thread Group Search Skills 7-1,text,false,"The operation lasted too long: It took 1,363 milliseconds, but should not have lasted longer than 500 milliseconds.",492,369,1,7,http://localhost:60968/authentication/authentication/signin,1361,0,47
+1717622718581,1363,SignIn,200,OK,Thread Group Language 3-1,text,false,"The operation lasted too long: It took 1,363 milliseconds, but should not have lasted longer than 1,000 milliseconds.",492,369,1,7,http://localhost:60968/authentication/authentication/signin,1361,0,47
+1717622718581,1363,SignIn,200,OK,Thread Group Share Skill 6-1,text,false,"The operation lasted too long: It took 1,363 milliseconds, but should not have lasted longer than 500 milliseconds.",492,369,1,7,http://localhost:60968/authentication/authentication/signin,1362,0,46
+1717622718581,1374,SignIn,200,OK,Thread Group Certification 4-1,text,true,,492,369,1,4,http://localhost:60968/authentication/authentication/signin,1374,0,46
+1717622718581,1376,SignIn,200,OK,Thread Group Description 5-1,text,false,"The operation lasted too long: It took 1,376 milliseconds, but should not have lasted longer than 500 milliseconds.",492,369,1,4,http://localhost:60968/authentication/authentication/signin,1376,0,47
+1717622719953,755,Add Skills,200,OK,Thread Group Skills 1-1,text,true,,207,628,1,3,http://localhost:60190/profile/profile/addSkill,755,0,1
+1717622719958,745,Add Certification,200,OK,Thread Group Certification 4-1,text,true,,223,662,1,3,http://localhost:60190/profile/profile/addCertification,745,0,1
+1717622719953,800,Add Education,200,OK,Thread Group Education 2-1,text,true,,223,684,1,3,http://localhost:60190/profile/profile/addEducation,800,0,1
+1717622720754,50,Update Education,500,Internal Server Error,Thread Group Education 2-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",111,706,1,3,http://localhost:60190/profile/profile/updateEducation,50,0,0
+1717622720748,56,Update Skills,500,Internal Server Error,Thread Group Certification 4-1,,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",111,683,1,3,http://localhost:60190/profile/profile/updateCertification,56,0,0
+1717622720806,10,Delete Education,200,OK,Thread Group Education 2-1,text,true,,220,587,1,3,http://localhost:60190/profile/profile/deleteEducation,10,0,0
+1717622720806,22,Delete Skill,500,Internal Server Error,Thread Group Certification 4-1,,false,Test failed: code expected to contain /200/,111,634,1,3,http://localhost:60190/profile/profile/deleteCertification,22,0,0
+1717622720817,68,Sign Out,200,OK,Thread Group Education 2-1,text,true,,203,558,1,3,http://localhost:60190/profile/profile/isUserAuthenticated,68,0,0
+1717622720828,57,Sign Out,200,OK,Thread Group Certification 4-1,text,true,,203,558,1,3,http://localhost:60190/profile/profile/isUserAuthenticated,57,0,0
+1717622720748,219,Update Skills,200,OK,Thread Group Skills 1-1,text,true,,207,665,1,1,http://localhost:60190/profile/profile/updateSkill,219,0,0
+1717622720967,57,Delete Skill,200,OK,Thread Group Skills 1-1,text,true,,191,658,1,1,http://localhost:60190/profile/profile/deleteSkill,56,0,0
+1717622721025,53,Sign Out,200,OK,Thread Group Skills 1-1,text,true,,203,558,1,1,http://localhost:60190/profile/profile/isUserAuthenticated,53,0,0
